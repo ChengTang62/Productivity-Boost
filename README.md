@@ -56,6 +56,7 @@ to launch Jupyter Notebook.
     "... (other dates with their associated deadlines)"
   }
 }
+```
 
 ## To Do
 

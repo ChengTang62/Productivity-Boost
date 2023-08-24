@@ -30,9 +30,32 @@ to launch Jupyter Notebook.
 #### Deadline Visualization
 #### Calendar Work/Off day visualization
 #### Data persistance
+##### JSON File Structure
 
-Saves data into json file in the format of 
+#### Example:
 
+```json
+{
+  "tasks": [
+    {
+      "task": "Task Name",
+      "subtasks": [
+        {
+          "Subtask Name": [
+            "Sub-subtask Name",
+            "... (other sub-subtasks)"
+          ],
+          "... (other subtasks)"
+        }
+      ]
+    },
+    "... (other tasks)"
+  ],
+  "deadlines": {
+    "YYYY-MM-DD": ["Deadline 1", "... (other deadlines)"],
+    "... (other dates with their associated deadlines)"
+  }
+}
 
 ## To Do
 
